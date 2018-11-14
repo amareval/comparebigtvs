@@ -1,0 +1,40 @@
+body {
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+nav {
+    background: rgb(65, 106, 241);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}    
+
+/* .card {
+    min-width: 30%; 
+} */
+
+.landing-page-portlets {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 25%;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    min-height: 200px;
+    text-align: center;
+}

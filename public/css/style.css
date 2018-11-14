@@ -1,0 +1,90 @@
+body {
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+#landing-page-header {
+    background: linear-gradient(to bottom, rgb(65, 106, 241), rgb(32, 47, 179));
+    height: 700px;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+header h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    margin: 10px 0px 40px 0px;
+    /* font-family: "Helvetica"; */
+}
+
+.landing-page-portlets {
+    margin-top: -85px;
+}
+
+.card-body {
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.card-body h5{
+    text-align: center;
+    color: rgb(21, 21, 151);
+}
+
+.card-body p {
+    color: rgb(60, 58, 82);
+    font-size: 14px;
+}
+
+.what-we-do {
+    background: rgb(240, 240, 240);
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+
+.what-we-do p {
+    color: rgb(134, 134, 134);
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+
+.carousel {
+    margin: 0 auto;
+}
+
+.carousel img {
+    max-height: 400px;
+}
+
+.card-img-acc,
+.card-img-settings,
+.card-img-tv-70,
+.card-img-tv-60 {
+    margin: 0 auto;
+}
+
+.card-img-tv-70 {
+    width: 33%;
+    height: 33%;
+}
+
+.buying-guides h2 {
+    text-align: center;
+}
+
+.what-we-do-img {
+    width: 25%;
+}
