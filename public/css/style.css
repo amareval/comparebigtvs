@@ -21,9 +21,10 @@ nav {
 header h2 {
     text-align: center;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
     margin: 10px 0px 40px 0px;
-    /* font-family: "Helvetica"; */
+    font-family: "Helvetica";
+    /* font-weight: 900; */
 }
 
 .landing-page-portlets {
@@ -87,4 +88,8 @@ header h2 {
 
 .what-we-do-img {
     width: 25%;
+}
+ 
+.buyingtext {
+    font-size: 20px;
 }
