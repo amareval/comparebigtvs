@@ -34,7 +34,7 @@ h2 {
     width: 50%;
 }
 
-h6 {
+h5 {
     margin: 40px 0px;
 }
 
@@ -50,4 +50,17 @@ h6 {
 
 .pros-cons h5 {
     text-align: center;
+}
+.headertext {
+    font-size: 17px;
+}
+
+.option1 {
+    font-size: 17px;
+}
+.option-1-list {
+    font-size: 17px;
+}
+.amazon-button {
+    margin-bottom: 50px;
 }
