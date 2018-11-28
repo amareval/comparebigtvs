@@ -44,8 +44,12 @@ h5 {
 }
 
 .tv-img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 200px;
+}
+
+.what-we-do-img {
+    width: 100%;
 }
 
 .pros-cons h5 {
@@ -64,3 +68,4 @@ h5 {
 .amazon-button {
     margin-bottom: 50px;
 }
+
