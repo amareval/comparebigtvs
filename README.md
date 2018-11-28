@@ -1,1 +1,3 @@
-# comparebigtvs
+---
+permalink: /index.html
+---
