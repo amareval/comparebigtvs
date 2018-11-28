@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -223,7 +222,7 @@
 
     <footer>
 
-        <p>footer</p>
+        <p></p>
 
     </footer>
 
