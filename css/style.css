@@ -1,0 +1,215 @@
+body {
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-family: "Avenir Next";
+}
+
+#landing-page-header {
+    background: linear-gradient(to bottom, rgb(65, 106, 241), rgb(32, 47, 179));
+    height: 700px;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+header h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    margin: 10px 0px 40px 0px;
+    /* font-family: "Helvetica"; */
+    font-family: "Avenir";
+    font-weight: 600;
+}
+
+
+/* ---------- CARDS ---------- */
+
+
+.landing-page-portlets {
+    margin-top: -85px;
+}
+
+.card {
+    padding-top: 20px;
+
+}
+
+.card-body {
+    box-shadow: 0 4px 2px -2px gray;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.card-body h5{
+    text-align: center;
+    color: rgb(51, 47, 90);
+
+}
+
+.card-body p {
+    color: rgb(134, 134, 134);
+    font-size: 14px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+
+.carousel {
+    margin: 0 auto;
+}
+
+.carousel img {
+    max-height: 400px;
+}
+
+.card-img-acc,
+.card-img-settings,
+.card-img-tv-70,
+.card-img-tv-60 {
+    margin: 0 auto;
+}
+
+.card-img-tv-70 {
+    width: 33%;
+    height: 33%;
+}
+
+
+.learn-more {
+    font-weight: 700;
+    color: rgb(55, 102, 163);
+}
+
+.learn-more:hover {
+    text-decoration: none;
+}
+
+
+/* ---------- BUYING BUIDES ---------- */
+
+
+.buying-guides {
+    /* min-height: 500px; */
+    background: rgb(240, 240, 240);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.buying-guides .row {
+    display: flex;
+    align-items: center;
+}
+
+.buying-guides p {
+    font-size: 18px;
+}
+
+.buying-guides h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+ 
+.buyingtext {
+    font-size: 14px;
+    background: rgb(194, 213, 255);
+    border-radius: 5px;
+    color: rgb(85, 85, 85);
+    padding: 30px;
+}
+
+/* ---------- WHAT WE DO ---------- */
+
+.what-we-do {
+    /* background: rgb(240, 240, 240); */
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+}
+
+#what-we-do-header {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#what-we-do-subheader {
+    margin-bottom: 75px;
+    font-size: 18px;
+}
+
+.what-we-do p {
+    color: rgb(134, 134, 134);
+}
+
+.what-we-do-img {
+    width: 25%;
+}
+
+.what-we-do h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(23, 45, 104);
+}
+
+hr {
+    width: 80%;
+}
+
+
+/* ---------- REVIEWS ---------- */
+
+.reviews {
+    margin-top: 150px;
+}
+
+.reviews .row {
+    display: flex;
+    align-items: center;
+}
+.review-1-img {
+    width: 100%;
+}
+
+
+/* ---------- GET STARTED ---------- */
+.get-started {
+    margin-top: 100px;
+    background: rgb(243, 243, 243);
+    padding: 100px;
+}
+
+.get-started button {
+    padding: 10px 30px;
+}
+
+
+
+/* ---------- FOOTER ---------- */
+footer {
+    background:  rgb(65, 106, 241);
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+
+footer p {
+    color: white;
+}
