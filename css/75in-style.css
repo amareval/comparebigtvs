@@ -68,4 +68,10 @@ h5 {
 .amazon-button {
     margin-bottom: 50px;
 }
-
+li {
+    list-style-type: disc;
+    list-style-position: relative;
+}
+ul{
+    padding-left: 15px;
+}
