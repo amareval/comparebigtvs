@@ -128,26 +128,16 @@
 
 
     <section class="buying-guides">
-            <div class="container w-75">
-                <!-- <h2 class="mt-5 mb-4">Buying Guides</h2> -->
-                <!-- <p class="buyingtext">
-                    When it comes to home entertainment, bigger is often better. This is especially true for televisions. The fastest growing category is the 75 Inch TV's With such a huge screen, you are likely to spend most of the time in the house relishing immersive entertainment. But this entertainment comes at a price. 
-                    <br>
-                    <br>
+        <div class="container w-75">
+                <!-- <h2 class="mt-5">Buying Guides</h2> -->
+                <p class="buyingtext">
+                    When it comes to home entertainment, bigger is often better. This is especially true for televisions. The fastest growing category is the 75 Inch TV's With such a huge screen, you are likely to spend most of the time in the house relishing immersive entertainment. But this entertainment comes at a price.</p>
+                
+                <p class="buyingtext">
                     Even if you have the space for it, buying such a TV is a commitment that should not be taken lightly. It is, therefore, important to compare big TVs before making the investment. 
-                </p> -->
+                </p>
     
-                <div class="row">
-                    <div class="col-5">
-                        <p>When it comes to home entertainment, bigger is often better. This is especially true for televisions. The fastest growing category is the 75 Inch TV's With such a huge screen, you are likely to spend most of the time in the house relishing immersive entertainment. 
-                        <!-- But this entertainment comes at a price. -->
-                        </p>  
-                    </div>
-                    <div class="col-2"></div>
-                    <div class="col-5">
-                        <p>Even if you have the space for it, buying such a TV is a commitment that should not be taken lightly. It is, therefore, important to compare big TVs before making the investment.</p>
-                    </div>
-                </div>
+        
             </div>
         </div>
      </section>
@@ -223,12 +213,19 @@
 
     <footer>
 
-        <p>footer</p>
+        <p>&copy;<span id="date"></span> Compare Big TVs</p>
 
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            const date = new Date();
+            $('#date').html(date.getFullYear());
+        })
+    </script>
 </body>
 </html>
