@@ -1,6 +1,7 @@
 body {
     font-size: 14px;
     box-sizing: border-box;
+    font-family: "Avenir Next";
 }
 
 header {
@@ -43,10 +44,10 @@ h5 {
     border: 1px solid black;
 }
 
-.tv-img {
-    /* border: 1px solid black; */
-    height: 200px;
-}
+/* .tv-img {
+    width: 400px;
+} */
+
 
 .what-we-do-img {
     width: 100%;
@@ -59,19 +60,8 @@ h5 {
     font-size: 17px;
 }
 
-.option1 {
-    font-size: 17px;
-}
-.option-1-list {
-    font-size: 17px;
-}
+
+
 .amazon-button {
     margin-bottom: 50px;
-}
-li {
-    list-style-type: disc;
-    list-style-position: outside;
-}
-ul{
-    padding-left: 15px;
 }
