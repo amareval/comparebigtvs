@@ -19,7 +19,9 @@ nav {
 
 .nav-link {
     color: white;
-}
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;}
 
 h2 {
     text-align: center;
