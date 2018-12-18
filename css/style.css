@@ -77,9 +77,9 @@ header h2 {
 /* ---------- CARDS ---------- */
 
 
-/* .landing-page-portlets {
-    margin-top: -85px;
-} */
+.landing-page-portlets {
+    margin-top: 75px;
+}
 
 .card {
     padding-top: 20px;
@@ -110,7 +110,7 @@ header h2 {
 
 
 .carousel {
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
 }
 
 .carousel img {
