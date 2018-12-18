@@ -7,12 +7,12 @@ body {
 
 #landing-page-header {
     background: linear-gradient(to bottom, rgb(65, 106, 241), rgb(32, 47, 179));
-    height: 300px;
+    height: 750px;
 }
 
 nav {
     padding: 10px 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .nav-link {
@@ -51,6 +51,28 @@ header h2 {
     font-weight: 600;
 }
 
+.header-outline-outer {
+    width: 80%;
+    margin: 0 auto;
+    height: 450px;
+    border: 1px solid white;
+    z-index: 0;
+    position: absolute;
+    left: 165px;
+    top: 175px;
+}
+
+.header-outline-inner {
+    width: 92%;
+    margin: 0 auto;
+    height: 100px;
+    border: 1px solid white;
+    z-index: 0;
+    position: absolute;
+    left: 65px;
+    top: 340px;
+}
+
 
 /* ---------- CARDS ---------- */
 
@@ -65,7 +87,7 @@ header h2 {
 }
 
 .card-body {
-    box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 4px 2px -2px rgb(23, 32, 114);
     padding-top: 30px;
     padding-bottom: 40px;
 
@@ -126,7 +148,7 @@ header h2 {
     background: rgb(240, 240, 240);
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 700px;
+    margin-top: 200px;
 }
 
 .buying-guides .row {
