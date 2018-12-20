@@ -19,8 +19,10 @@ nav {
     color: white;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 17px;
 }
+
+
 
 nav ul {
     clear: both;
@@ -30,11 +32,11 @@ nav ul {
 .nav-item-left {
     float: left!important;
     color: white;
-    font-weight: 0!important;
+    font-weight: 600!important;
 }
 
 .nav-item-left a {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .nav-item {
